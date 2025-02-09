@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>мой сайт</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://wsxzaq127.github.io/style.css">
+</head>
+
+<body>
+    <a href="https://github.com">Посетить GitHub</a>
+    <header class="header">
+        <div class="container  container_header">
+            <img src="img/Логотип(header__logo).png" class="header_logo">
+            <nav class="header_nav">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a class="nav_link" href="index.html">Главная</a>
+                    </li>
+                    <li class="nav_item">
+                        <a class="nav_link" href="#about">О утках</a>
+                    </li>
+                    <li class="nav_item">
+                        <a class="nav_link" href="#gallery">утки</a>
+                    </li>
+                    <li class="nav_item">
+                        <a class="nav_link" href="reviews.html">продукты</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero-block">
+            <div class="container hero-block_container">
+                <img src="img/Bella.jpg" class="hero-block_img">
+                <div class="hero-block_container_text">
+                    <h1 class="hero-block_title">Меня зовут 
+                        Софья</h1>
+                    <a class="hero-block_container_bottom" href="https://www.youtube.com/watch?v=xvFZjo5PgG0">не пиши мне </a>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container about_container">
+                <h2 class="about_title">об мне</h2>
+                <div class="about_content">
+                    <p class="about_text">Я занимаюсь продажей уток если вы не купите утку я на вас её натравлю </p>
+                    <img class="about_img" src="img/Bella.jpg">
+                </div>
+            </div>
+        </section>
+        <section class="video">
+            <div class="container video_container">
+                <h2 class="video_title">Видео
+                    <iframe class="video_video" src="https://www.youtube.com/embed/0r3WSNS3bhM?si=umnEbq8RfqGgzp38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    </iframe>
+                </h2>
+            </div>
+        </section>
+        <section class="gallery">
+            <h2 class="gallery_title">Галлерея</h2>
+            <ul class="gallery_list">
+                <li class="gallery_item">
+                    <a href="img/утка 1.webp" class="lightzoom">
+                    <img class="gallery_img" src="img/утка 1.webp">
+                    </a>
+                </li>
+                <li class="gallery_item">
+                    <a href="img/утка 2.webp" class="lightzoom">
+                    <img class="gallery_img" src="img/утка 2.webp">
+                </a>
+                </li>
+                <li class="gallery_item">
+                    <a href="img/утка 3.webp" class="lightzoom">
+                    <img class="gallery_img" src="img/утка 3.webp">
+                </a>
+                </li>
+                <li class="gallery_item">
+                    <a href="img/утка 4.webp" class="lightzoom">
+                    <img class="gallery_img" src="img/утка 4.webp">
+                </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container container_footer">
+            <div class="footer__text">
+                <h3 class="footer_title">Софья</h3>
+                <p class="footer_copy">&copy;2038. Все права уток защищены.</p>
+            </div>
+            <ul class="footer_list">
+                <li class="footer_item">
+                    <img class="footer_img" src="img/icon_tg.svg">
+                </li>
+                <li class="footer_item">
+                    <img class="footer_img" src="img/icon_vk.svg">
+
+                </li>
+            </ul>
+        </div>
+
+    </footer>
+    <script type="text/javascript" src="https://wsxzaq127.github.io/lightzoom.js"></script>
+    <script type="text/javascript">
+        jQuery('.lightzoom').lightzoom({speed: 400, viewTitle: true});
+        </script>
+</body>
+
+</html>
